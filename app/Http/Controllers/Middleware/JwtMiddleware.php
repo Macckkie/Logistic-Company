@@ -48,7 +48,6 @@ class JwtMiddleware
                 'message' => 'Token not provided'
             ], 401);
         }
-
         return $next($request);
     }
 }

@@ -172,7 +172,6 @@ class EmployeeController extends Controller
     public function destroy($id)
     {
         DB::beginTransaction();
-
         try {
             $employee = Employee::findOrFail($id);
 

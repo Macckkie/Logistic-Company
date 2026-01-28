@@ -174,7 +174,6 @@ class ReportController extends Controller
             ], 500);
         }
     }
-
     public function getRevenueForPeriod(Request $request)
     {
         try {

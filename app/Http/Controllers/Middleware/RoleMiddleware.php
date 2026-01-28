@@ -26,7 +26,6 @@ class RoleMiddleware
                     'message' => 'Insufficient permissions'
                 ], 403);
             }
-
         } catch (\Exception $e) {
             return response()->json([
                 'success' => false,
