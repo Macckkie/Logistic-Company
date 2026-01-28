@@ -2,9 +2,9 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-echo "==========================================\n";
+echo "========================================\n";
 echo "AUTH MODULE COMPLETENESS CHECK\n";
-echo "==========================================\n\n";
+echo "========================================\n\n";
 
 class AuthModuleTest {
     private $passed = 0;
